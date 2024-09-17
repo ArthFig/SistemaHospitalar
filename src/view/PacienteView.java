@@ -6,7 +6,7 @@ import models.Menu;
 import javax.swing.*;
 
 public class PacienteView {
-    /*public int telaInicial() {
+    public int telaInicial() {
         String[] menu = {"Cadastro", "Listagem", "Alteração", "Exclusão"};
 
         int opcao = JOptionPane.showOptionDialog(
@@ -142,5 +142,5 @@ public class PacienteView {
                 }
             }
         }
-    }*/
+    }
 }
