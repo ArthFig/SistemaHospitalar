@@ -4,16 +4,16 @@ import java.time.LocalDate;
 import java.util.Date;
 
 public class Paciente {
-    private Long id;
-    private String nome;
-    private LocalDate data_nascimento;
-    private Character sexo;
-    private String telefone;
-    private String email;
-    private String numero_sus;
-    private String cpf;
-    private String tipo_sanguineo;
-    private Endereco endereco;
+    public Long id;
+    public String nome;
+    public LocalDate data_nascimento;
+    public Character sexo;
+    public String telefone;
+    public String email;
+    public String numero_sus;
+    public String cpf;
+    public String tipo_sanguineo;
+    public Endereco endereco;
 
     public Paciente() {
     }

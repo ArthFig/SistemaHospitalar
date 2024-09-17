@@ -1,35 +1,36 @@
 import view.MenuView;
+import view.PacienteView;
 
 public class Main {
     public static void main(String[] args) {
 
-        MenuView menuView = new MenuView();
+        PacienteView pacienteView = new PacienteView();
         int opcao;
 
         // Estrutura de funcionalidades
         do {
             // Tela inicial
-            opcao = menuView.telaInicial();
+            opcao = pacienteView.telaInicial();
 
             switch (opcao) {
                 // Cadastro
                 case 0:
-                    menuView.telaCadastro();
+                    pacienteView.telaCadastro();
                     break;
 
                 // Listagem
                 case 1:
-                    menuView.telaListagem();
+                    pacienteView.telaListagem();
                     break;
 
                 // Alteração
                 case 2:
-                    menuView.telaAlteracao();
+                    pacienteView.telaAlteracao();
                     break;
 
                 // Exclusão
                 case 3:
-                    menuView.telaExclusao();
+                    pacienteView.telaExclusao();
                     break;
 
             }
